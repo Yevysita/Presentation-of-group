@@ -73,3 +73,33 @@ h2 {
   max-width: 280px;
   height: auto;
 }
+
+.Tigru {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.Tigr {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tigr p {
+  width: 200px;
+  height: 200px;
+  background-color: #d6d6d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.Tigr img {
+  width: 200px;
+}
