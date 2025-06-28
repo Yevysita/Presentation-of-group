@@ -1,0 +1,60 @@
+body{
+    font-family: 'Caveat', cursive;
+}
+  
+h1{
+ font-size: 20px;
+ text-align: center;
+ background-color:  #90E0EF;
+ border-radius: 20px;
+ height: 35px;
+}
+.Tigruio {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+  }
+  
+  .Tigrqw {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.qwerty{
+    background-color: #0077B6;
+    border-radius: 10px;
+    
+}
+
+.asdf{
+    border: 2px #03045E solid;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 25px;
+}
+
+.pic{
+    width: 450px;
+   
+}
+
+.qwertyh{
+    background-color: #0077B6;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.asdfg{
+    border: 2px #03045E solid;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 25px;
+    width: 290px;
+}
+
+.pics{
+    width: 450px;
+}
