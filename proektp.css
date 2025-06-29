@@ -2,60 +2,66 @@ body{
     font-family: 'Caveat', cursive;
     background: linear-gradient(to bottom, #03045E, #0077B6, #00B4D8, #90E0EF, #CAF0F8);
 }
-
+  
 h1{
-    font-size: 30px;
-    text-align: center;
-    background-color:  #90E0EF;
-    border-radius: 20px;
-    height: 45px;
-   }
-
-   h2{
-   background-color: #0077B6;
-    border-radius: 10px;
-    width: 80px;
+ font-size: 20px;
+ text-align: center;
+ background-color:  #90E0EF;
+ border-radius: 20px;
+ height: 35px;
 }
+.Tigruio {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+  }
+  
+  .Tigrqw {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 .qwerty{
-    text-align: center;
-    font-size: 30px;
-    background-color: #90E0EF;
-    width: 500px;
+    background-color: #0077B6;
+    border-radius: 10px;
+    
+}
+
+.asdf{
+    border: 2px #03045E solid;
     border-radius: 20px;
+    margin: 25px;
+    padding: 25px;
+    background-color: #90E0EF;
+}
+
+.pic{
+    width: 450px;
+   
+}
+
+.qwertyh{
+    background-color: #0077B6;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.asdfg{
+    border: 2px #03045E solid;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 25px;
+    width: 290px;
+}
+
+.pics{
+    width: 450px;
 }
 
 a{
+    color: black;
     text-decoration: none;
-    color: #90E0EF;
 }
-
-.zxcvb{
-    text-align: center;
-}
-
-.yevae{
-    font-size: 25px;
-   color: #90E0EF;
-  }
-  
-  .we {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 20px;
-    background-color:#03045E;
-    border-radius:20px ;
-  }
-  
-  .quotes {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .yevae {
-    font-size: 18px;
-  }
-  
