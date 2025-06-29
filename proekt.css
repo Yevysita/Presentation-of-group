@@ -58,3 +58,8 @@ h1{
 .pics{
     width: 450px;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+}
