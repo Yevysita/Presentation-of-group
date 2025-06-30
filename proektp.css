@@ -1,12 +1,13 @@
 body{
     font-family: 'Caveat', cursive;
-    background: linear-gradient(to bottom, #03045E, #0077B6, #00B4D8, #90E0EF, #CAF0F8);
+     background-color:  #FFF3D6 ;
 }
   
 h1{
+    color: white;
  font-size: 20px;
  text-align: center;
- background-color:  #90E0EF;
+ background-color: #F15156;
  border-radius: 20px;
  height: 35px;
 }
@@ -25,7 +26,7 @@ h1{
   }
 
 .qwerty{
-    background-color: #0077B6;
+    background-color: #F9C5D1;
     border-radius: 10px;
     
 }
@@ -35,7 +36,7 @@ h1{
     border-radius: 20px;
     margin: 25px;
     padding: 25px;
-    background-color: #90E0EF;
+    background-color: #F9C5D1 ;
 }
 
 .pic{
@@ -44,7 +45,7 @@ h1{
 }
 
 .qwertyh{
-    background-color: #0077B6;
+    background-color: #F9C5D1;
     border-radius: 10px;
     width: 120px;
 }
@@ -62,6 +63,71 @@ h1{
 }
 
 a{
-     color: #90E0EF;
+    color: #4CBB9B;
     text-decoration: none;
 }
+
+.Tigru {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+  }
+  
+  .Tigr {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Tigr p {
+    width: 200px;
+    height: 200px;
+    background-color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .Tigr img {
+    width: 200px;
+  }
+
+  .yevae{
+    font-size: 25px;
+   color: white;
+  }
+  
+  .we {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    background-color:#4CBB9B;
+    border-radius:20px ;
+  }
+  
+  .quotes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .yevae {
+    font-size: 18px;
+  }
+  
+  h2 {
+    color:white;
+    margin: 0;
+  }
+  
+  .logo {
+    max-width: 280px;
+    height: auto;
+  }
