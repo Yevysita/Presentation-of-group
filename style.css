@@ -1,14 +1,15 @@
 body{
-font-family: 'Caveat', sans-serif;
+  font-family: 'Caveat', cursive;
 }
+
 header {
-    background-color: #d6d6d6; 
+    background-color: #F15156; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    border-bottom: 2px solid #aaa;
-    font-family: Arial, sans-serif;
+  color: white;
+    
 }
 
 header h1 {
@@ -17,21 +18,22 @@ header h1 {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
-    color: #333;
+    color: white;
 }
 
 header nav {
     display: flex;
     gap: 20px;
+    color: white;
 }
 
-header nav a {
+header a {
     text-decoration: none;
     font-size: 16px;
-    color: #444;
+    color: white;
 }
 
-header nav a:hover {
+header a:hover {
     text-decoration: underline;
 }
 
@@ -75,6 +77,7 @@ h2 {
 .logo {
   max-width: 280px;
   height: auto;
+  background-color: #F9C5D1;
 }
 
 .Tigru {
@@ -94,7 +97,7 @@ h2 {
 .Tigr p {
   width: 200px;
   height: 200px;
-  background-color: #d6d6d6;
+  background-color: #F9C5D1;
   display: flex;
   justify-content: center;
   align-items: center;
