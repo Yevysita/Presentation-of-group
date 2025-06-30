@@ -1,5 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=LXGW+Marker+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shafarik&display=swap');
 
+body{
+font-family: 'Caveat', sans-serif;
+}
 
 header {
     background-color: #90E0EF; 
@@ -113,7 +117,6 @@ h2 {
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   color: #03045E;
-  transparent:
 }
 
 .Tigr img {
