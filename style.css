@@ -179,6 +179,28 @@ h2 {
   border-bottom: none;
 }
 
+.qwerty2 {
+  background-color: #FFF3D6; /* Banana Whip */
+  border-left: 8px solid #F15156; /* Cherry Pop */
+  border-radius: 15px;
+  padding: 25px;
+  margin: 40px auto;
+  max-width: 800px;
+  font-family: "Caveat", cursive;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #4CBB9B; /* Melon Mint */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.qwerty2:hover {
+  transform: scale(1.01);
+  background-color: #F9C5D1; /* Strawberry Cream */
+  color: #03045E;
+}
+
+
 
 
 
