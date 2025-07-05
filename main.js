@@ -1,21 +1,28 @@
-let seconds = 0
-let minutes = 0
-let timer_field = document.querySelector(".timer")
+var seconds = parseInt(localStorage.getItem("seconds")) || 0;
+var minutes = parseInt(localStorage.getItem("minutes")) || 0;
+var timerField = document.querySelector(".timer");
 
-setInterval(function(){
-    seconds += 1
+function showTime() {
+  timerField.innerHTML =
+    "Скільки часу ти розглядав проект: " +
+    minutes +
+    " min " +
+    seconds +
+    " sec";
+}
 
-    timer_field.innerHTML = "Time: " + seconds +"sec"
+showTime(); 
 
-    if(seconds % 60 == 0){
-        seconds = 0
-        minutes += 1   
-            
-    }
-    if (minutes > 0){
-        timer_field.innerHTML = "Time: " + minutes + " min " + seconds + " sec " 
-    }
-    
+setInterval(function () {
+  seconds++;
 
-}, 1000)
+  if (seconds === 60) {
+    seconds = 0;
+    minutes++;
+  }
 
+  localStorage.setItem("seconds", seconds);
+  localStorage.setItem("minutes", minutes);
+
+  showTime(); 
+}, 1000);

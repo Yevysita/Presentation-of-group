@@ -1,152 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=LXGW+Marker+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shafarik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=LXGW+Marker+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shafarik&display=swap");
 
 body {
-    margin: 0;
-   font-family: "LXGW Marker Gothic", sans-serif;
-    background-color: #FFF3D6;
-    color: #333;
+  margin: 0;
+  font-family: "LXGW Marker Gothic", sans-serif;
+  background-color: #fff3d6;
+  color: #333;
 }
 
 header {
-    background-color: #F15156;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    color: white;
-    border-bottom: 4px solid #4CBB9B;
+  background-color: #f15156;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: white;
+  border-bottom: 4px solid #4cbb9b;
 }
 
 header h1 {
-    flex-grow: 1;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    margin: 0;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
 }
 
 header nav {
-    display: flex;
-    gap: 20px;
-    color: white;
+  display: flex;
+  gap: 20px;
+  color: white;
 }
 
 header a {
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
-    transition: 0.3s ease;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  transition: 0.3s ease;
 }
 
 header nav a:hover {
-    color: #FFF3D6;
-    text-decoration: underline;
+  color: #fff3d6;
+  text-decoration: underline;
 }
 
 main {
-    padding: 30px;
+  padding: 30px;
 }
 
 .Tigru {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
 }
 
 .Tigr {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F9C5D1;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9c5d1;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .Tigr:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
-
 .Tigr p {
-    font-size: 18px;
-    text-align: center;
-    color: #333;
-    margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .Tigr img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .osnovatext {
-    font-size: 20px;
-    text-align: center;
-    background-color: #F9C5D1;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 900px;
-    border-radius: 20px;
-    color: #333;
+  font-size: 20px;
+  text-align: center;
+  background-color: #f9c5d1;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 900px;
+  border-radius: 20px;
+  color: #333;
 }
 
 footer {
-    background-color: #4CBB9B;
-    color: white;
-    padding: 20px;
-    border-top: 4px solid #F15156;
+  background-color: #4cbb9b;
+  color: white;
+  padding: 20px;
+  border-top: 4px solid #f15156;
 }
 
 footer .we {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .quotes {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .yevae {
-    font-size: 18px;
-    margin: 0;
-    color: white;
-    transition: all 0.3s ease;
+  font-size: 18px;
+  margin: 0;
+  color: white;
+  transition: all 0.3s ease;
 }
 
 .yevae:hover {
-    color: #F9C5D1;
-    font-size: 20px;
-    transform: scale(1.05);
-    cursor: pointer;
+  color: #f9c5d1;
+  font-size: 20px;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
-
 h2 {
-    color: #FFF3D6;
-    margin: 0;
+  color: #fff3d6;
+  margin: 0;
 }
 
 .logo {
-    max-width: 250px;
-    border-radius: 10px;
+  max-width: 250px;
+  border-radius: 10px;
 }
 .styled-table {
   width: 90%;
   margin: 40px auto;
   border-collapse: collapse;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   border-radius: 12px;
@@ -154,7 +152,7 @@ h2 {
 }
 
 .styled-table thead tr {
-  background-color: #F15156; 
+  background-color: #f15156;
   color: white;
   text-align: left;
 }
@@ -165,13 +163,13 @@ h2 {
 }
 
 .styled-table tbody tr {
-  background-color: #FFF3D6;
-  border-bottom: 1px solid #F9C5D1;
+  background-color: #fff3d6;
+  border-bottom: 1px solid #f9c5d1;
   transition: background-color 0.3s ease;
 }
 
 .styled-table tbody tr:hover {
-  background-color: #F9C5D1;
+  background-color: #f9c5d1;
   transform: scale(1.01);
 }
 
@@ -179,26 +177,7 @@ h2 {
   border-bottom: none;
 }
 
-.qwerty2 {
-  background-color: #FFF3D6; /* Banana Whip */
-  border-left: 8px solid #F15156; /* Cherry Pop */
-  border-radius: 15px;
-  padding: 25px;
-  margin: 40px auto;
-  max-width: 800px;
-  font-family: "Caveat", cursive;
-  font-size: 22px;
-  line-height: 1.6;
-  color: #4CBB9B; /* Melon Mint */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
 
-.qwerty2:hover {
-  transform: scale(1.01);
-  background-color: #F9C5D1; /* Strawberry Cream */
-  color: #03045E;
-}
 
 
 
