@@ -1,29 +1,28 @@
-let seconds = JSON.parse(localStorage.getItem("time"));
-let minutes = JSON.parse(localStorage.getItem("minutes"));
-let timer_field = document.querySelector(".timer")
+var seconds = parseInt(localStorage.getItem("seconds")) || 0;
+var minutes = parseInt(localStorage.getItem("minutes")) || 0;
+var timerField = document.querySelector(".timer");
 
-setInterval(function(){
-    localStorage.setItem("time", seconds += 1);
+function showTime() {
+  timerField.innerHTML =
+    "Скільки часу ти розглядав проект: " +
+    minutes +
+    " min " +
+    seconds +
+    " sec";
+}
 
-    timer_field.innerHTML =
-      "Скільки часу ти розглядав проект: " +
-      JSON.parse(localStorage.getItem("time")) +
-      "sec";
+showTime(); 
 
-    if(seconds % 60 == 0){
-        seconds = 0
-        minutes += 1      
-    }
-    localStorage.setItem("minutes", minutes);
-    if (minutes > 0){
-        timer_field.innerHTML =
-          "TСкільки часу ти розглядав проект: " +
-          JSON.parse(localStorage.getItem("minutes")) +
-          " min " +
-          JSON.parse(localStorage.getItem("time")) +
-          " sec "; 
-    }
-    
+setInterval(function () {
+  seconds++;
 
-}, 1000)
+  if (seconds === 60) {
+    seconds = 0;
+    minutes++;
+  }
 
+  localStorage.setItem("seconds", seconds);
+  localStorage.setItem("minutes", minutes);
+
+  showTime(); 
+}, 1000);
