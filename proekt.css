@@ -1,155 +1,137 @@
-body{
-    font-family: 'Caveat', cursive;
-     background-color:  #FFF3D6 ;
-}
-  
-h1{
-    color: white;
- font-size: 20px;
- text-align: center;
- background-color: #F15156;
- border-radius: 20px;
- height: 35px;
-}
-.Tigruio {
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-  }
-  
-  .Tigrqw {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-.qwerty{
-    background-color: #F9C5D1;
-    border-radius: 10px;
-    
-}
-
-.asdf{
-    border: 2px #03045E solid;
-    border-radius: 20px;
-    margin: 25px;
-    padding: 25px;
-    background-color: #F9C5D1 ;
-}
-
-.pic{
-    width: 450px;
-   
-}
-
-.qwertyh{
-    background-color: #F9C5D1;
-    border-radius: 10px;
-    width: 120px;
-}
-
-.asdfg{
-    border: 2px #03045E solid;
-    border-radius: 20px;
-    margin: 25px;
-    padding: 25px;
-    width: 290px;
-}
-
-.pics{
-    width: 450px;
-}
-
-a{
-    color: #4CBB9B;
-    text-decoration: none;
-}
-
-.Tigru {
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-  }
-  
-  .Tigr {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Tigr p {
-    width: 200px;
-    height: 200px;
-    background-color: #d6d6d6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 20px;
-  }
-  
-  .Tigr img {
-    width: 200px;
-  }
-
-  .yevae{
-    font-size: 25px;
-   color: white;
-  }
-  
-  .we {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 20px;
-    background-color:#4CBB9B;
-    border-radius:20px ;
-  }
-  
-  .quotes {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .yevae {
-    font-size: 18px;
-  }
-  
-  h2 {
-    color:white;
-    margin: 0;
-  }
-  
-  .logo {
-    max-width: 280px;
-    height: auto;
-  }
-
-  .qwerty2 {
+/* Основні стилі сторінки */
+body {
   background-color: #FFF3D6; /* Banana Whip */
-  border-left: 8px solid #F15156; /* Cherry Pop */
-  border-radius: 15px;
-  padding: 25px;
-  margin: 40px auto;
-  max-width: 800px;
-  font-family: "Caveat", cursive;
-  font-size: 22px;
-  line-height: 1.6;
-  color: #4CBB9B; /* Melon Mint */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-.qwerty2:hover {
-  transform: scale(1.01);
+/* Посилання */
+a {
+  display: inline-block;
+  margin: 20px;
+  color: #F15156; /* Cherry Pop */
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+a:hover {
+  color: #4CBB9B; /* Melon Mint */
+}
+
+/* Заголовки */
+h1 {
+  text-align: center;
+  color: #F15156;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #F15156;
+  margin-bottom: 10px;
+}
+
+/* Контейнер кожного блоку з текстом і картинкою */
+.Tigruio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   background-color: #F9C5D1; /* Strawberry Cream */
-  color: #03045E;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 1200px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Tigruio:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+/* Текстова частина */
+.Tigrqw {
+  flex: 1;
+  padding: 20px;
+  min-width: 300px;
+}
+
+/* Заголовки в блоках */
+.qwerty {
+  font-weight: bold;
+  font-size: 22px;
+  color: #F15156;
+  margin-bottom: 10px;
+}
+
+/* Основний текст */
+.asdf {
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #FFF3D6; /* Banana Whip */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Картинки */
+.pic {
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.pic:hover {
+  transform: scale(1.05);
+}
+
+/* Футер */
+footer {
+  margin-top: 50px;
+  background-color: #4CBB9B; /* Melon Mint */
+  padding: 40px 0;
+  border-top: 4px solid #F15156;
+}
+
+/* Блок з цитатами */
+.quotes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Окрема цитата */
+.yevae {
+  font-style: italic;
+  font-size: 18px;
+  padding: 12px 20px;
+  background-color: #FFF3D6;
+  border-radius: 12px;
+  color: #4CBB9B;
+  transition: 0.3s;
+  max-width: 250px;
+  text-align: center;
+}
+.yevae:hover {
+  background-color: #F15156;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Картинка-лого */
+.logo {
+  display: block;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+.logo:hover {
+  transform: rotate(-2deg) scale(1.05);
 }

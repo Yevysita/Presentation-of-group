@@ -1,133 +1,84 @@
-body{
-    font-family: 'Caveat', cursive;
-     background-color:  #FFF3D6 ;
-}
-  
-h1{
-    color: white;
- font-size: 20px;
- text-align: center;
- background-color: #F15156;
- border-radius: 20px;
- height: 35px;
-}
-.Tigruio {
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-  }
-  
-  .Tigrqw {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=LXGW+Marker+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shafarik&display=swap');
 
-.qwerty{
-    background-color: #F9C5D1;
-    border-radius: 10px;
-    
+/* Загальні налаштування */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FFF3D6; /* Banana Whip */
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-.asdf{
-    border: 2px #03045E solid;
-    border-radius: 20px;
-    margin: 25px;
-    padding: 25px;
-    background-color: #F9C5D1 ;
+a {
+  display: inline-block;
+  margin: 20px;
+  color: #F15156; /* Cherry Pop */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #4CBB9B; /* Melon Mint */
 }
 
-.pic{
-    width: 450px;
-   
+/* Заголовки */
+h1, h2 {
+  text-align: center;
+  color: #F15156; /* Cherry Pop */
 }
 
-.qwertyh{
-    background-color: #F9C5D1;
-    border-radius: 10px;
-    width: 120px;
+/* Карточки */
+.qwerty {
+  background-color: #F9C5D1; /* Strawberry Cream */
+  margin: 30px auto;
+  padding: 25px;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.qwerty:hover {
+  transform: scale(1.01);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
 
-.asdfg{
-    border: 2px #03045E solid;
-    border-radius: 20px;
-    margin: 25px;
-    padding: 25px;
-    width: 290px;
+/* Цитати */
+.quotes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #F9C5D1; /* Strawberry Cream */
+  padding: 30px;
+}
+.yevae {
+  font-style: italic;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #4CBB9B; /* Melon Mint */
+  color: white;
+  border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.yevae:hover {
+  background-color: #F15156; /* Cherry Pop */
+  transform: scale(1.1);
 }
 
-.pics{
-    width: 450px;
+/* Логотип */
+.logo {
+  display: block;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+  transform: rotate(-2deg) scale(1.05);
 }
 
-a{
-    color: #4CBB9B;
-    text-decoration: none;
+/* Контейнер */
+.we {
+  background-color: #4CBB9B; /* Melon Mint */
+  padding: 40px 0;
+  border-top: 4px solid #F15156; /* Cherry Pop */
 }
-
-.Tigru {
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-  }
-  
-  .Tigr {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Tigr p {
-    width: 200px;
-    height: 200px;
-    background-color: #d6d6d6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 20px;
-  }
-  
-  .Tigr img {
-    width: 200px;
-  }
-
-  .yevae{
-    font-size: 25px;
-   color: white;
-  }
-  
-  .we {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 20px;
-    background-color:#4CBB9B;
-    border-radius:20px ;
-  }
-  
-  .quotes {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .yevae {
-    font-size: 18px;
-  }
-  
-  h2 {
-    color:white;
-    margin: 0;
-  }
-  
-  .logo {
-    max-width: 280px;
-    height: auto;
-  }
